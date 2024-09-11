@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - jpm > sign-addon > request > hawk > hoek:
+        patched: '2024-09-11T02:38:36.857Z'
+        id: 'npm:hoek:20180212'
+        path: jpm > sign-addon > request > hawk > hoek
+    - jpm > sign-addon > jsonwebtoken > joi > hoek:
+        patched: '2024-09-11T02:38:36.857Z'
+        id: 'npm:hoek:20180212'
+        path: jpm > sign-addon > jsonwebtoken > joi > hoek
+    - jpm > sign-addon > request > hawk > boom > hoek:
+        patched: '2024-09-11T02:38:36.857Z'
+        id: 'npm:hoek:20180212'
+        path: jpm > sign-addon > request > hawk > boom > hoek
+    - jpm > sign-addon > request > hawk > sntp > hoek:
+        patched: '2024-09-11T02:38:36.857Z'
+        id: 'npm:hoek:20180212'
+        path: jpm > sign-addon > request > hawk > sntp > hoek
+    - jpm > sign-addon > jsonwebtoken > joi > topo > hoek:
+        patched: '2024-09-11T02:38:36.857Z'
+        id: 'npm:hoek:20180212'
+        path: jpm > sign-addon > jsonwebtoken > joi > topo > hoek
+    - jpm > sign-addon > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-11T02:38:36.857Z'
+        id: 'npm:hoek:20180212'
+        path: jpm > sign-addon > request > hawk > cryptiles > boom > hoek
+  'npm:lodash:20180130':
+    - jpm > fx-runner > lodash:
+        patched: '2024-09-11T02:38:36.857Z'
+        id: 'npm:lodash:20180130'
+        path: jpm > fx-runner > lodash
+  'npm:ms:20170412':
+    - jpm > sign-addon > jsonwebtoken > ms:
+        patched: '2024-09-11T02:38:36.857Z'
+        id: 'npm:ms:20170412'
+        path: jpm > sign-addon > jsonwebtoken > ms
+  'npm:tough-cookie:20170905':
+    - jpm > sign-addon > request > tough-cookie:
+        patched: '2024-09-11T02:38:36.857Z'
+        id: 'npm:tough-cookie:20170905'
+        path: jpm > sign-addon > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - jpm > sign-addon > request > tunnel-agent:
+        patched: '2024-09-11T02:38:36.857Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: jpm > sign-addon > request > tunnel-agent
